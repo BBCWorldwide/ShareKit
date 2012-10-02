@@ -29,7 +29,7 @@
 
 #import "NSString+URLEncoding.h"
 
-#import "JSON.h"
+#import "FBSBJSON.h"
 
 
 static NSString *apiURL = @"https://api.foursquare.com/v2";
@@ -49,7 +49,7 @@ static NSString *apiDateVerified = @"20110927";
 - (NSDictionary*)getFoursquareResult
 {
     if (_foursquareResult == nil) {
-        SBJSON *jsonParser = [[SBJSON alloc] init];
+        FBSBJSON *jsonParser = [[FBSBJSON alloc] init];
         
         id jsonResult = [jsonParser objectWithString:self.result];
         
