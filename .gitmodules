@@ -12,4 +12,4 @@
 	url = https://github.com/evernote/evernote-sdk-ios.git
 [submodule "Submodules/facebook-ios-sdk"]
 	path = Submodules/facebook-ios-sdk
-	url = git@github.com:facebook/facebook-ios-sdk
+	url = https://github.com/facebook/facebook-ios-sdk.git
